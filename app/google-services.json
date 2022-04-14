@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553422763844",
+    "project_id": "paws-846aa",
+    "storage_bucket": "paws-846aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553422763844:android:dae80425cf7a25b4f18911",
+        "android_client_info": {
+          "package_name": "edu.neu.madcourse.paws"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553422763844-e8avsmki8is0nkpm0fr9akscu9o4o065.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-cuQ_CBIUpzuGe9vdD57tI5R40e03-Yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553422763844-e8avsmki8is0nkpm0fr9akscu9o4o065.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

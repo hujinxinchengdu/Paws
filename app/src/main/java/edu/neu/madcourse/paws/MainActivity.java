@@ -18,8 +18,9 @@ public class MainActivity extends BaseUIActivity {
 
         openInitPage();
         MediaPlayerManager mediaPlayerManager = new MediaPlayerManager();
-        AssetFileDescriptor fileDescriptor = getResources().openRawResourceFd(R.raw.sample_6s);
-        mediaPlayerManager.startPlay(fileDescriptor);
+        AssetFileDescriptor fileDescriptor = getResources().openRawResourceFd(R.raw.guitar_1);
+        //mediaPlayerManager.startPlay(fileDescriptor);
+        /*
 
         mediaPlayerManager.setOnProgressListener(new MediaPlayerManager.OnMusicProgressListener() {
             @Override

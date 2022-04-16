@@ -18,7 +18,7 @@ public class GuideActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guide);
         mediaPlayerManager = new MediaPlayerManager();
-        AssetFileDescriptor fileDescriptor = getResources().openRawResourceFd(R.raw.sample_6s);
+        AssetFileDescriptor fileDescriptor = getResources().openRawResourceFd(R.raw.park);
         mediaPlayerManager.startPlay(fileDescriptor);
 
         TextView skip = (TextView) findViewById(R.id.tv_guide_skip);
@@ -26,7 +26,7 @@ public class GuideActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 openLogin();
-                mediaPlayerManager.stopPlay();
+                mediaPlayerManager.pausePlay();
             }
         });
     }

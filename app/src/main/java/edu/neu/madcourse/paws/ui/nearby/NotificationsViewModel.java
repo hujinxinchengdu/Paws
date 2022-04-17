@@ -1,16 +1,16 @@
-package edu.neu.madcourse.paws.ui.dashboard;
+package edu.neu.madcourse.paws.ui.nearby;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DashboardViewModel extends ViewModel {
+public class NotificationsViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public DashboardViewModel() {
+    public NotificationsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is location fragment");
     }
 
     public LiveData<String> getText() {

@@ -1,4 +1,4 @@
-package edu.neu.madcourse.paws.ui.notifications;
+package edu.neu.madcourse.paws.ui.nearby;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,6 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import edu.neu.madcourse.paws.R;
 import edu.neu.madcourse.paws.databinding.FragmentNotificationsBinding;
 
 public class NotificationsFragment extends Fragment {

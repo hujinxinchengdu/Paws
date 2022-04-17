@@ -23,7 +23,7 @@ public class PetSettingActivity extends AppCompatActivity {
     }
 
     public void openNav(){
-        Intent intent = new Intent(this,NavActivity.class);
+        Intent intent = new Intent(this,MapsActivity.class);
         startActivity(intent);
     }
 }

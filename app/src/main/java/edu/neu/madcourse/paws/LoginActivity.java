@@ -75,6 +75,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Log.e(TAG,"sign in success");
+                            openNavPage();
                         }else{
                             Log.e(TAG,task.getException().toString());
                             Toast.makeText(getApplicationContext(),"auth failed",Toast.LENGTH_SHORT).show();
@@ -85,6 +86,11 @@ public class LoginActivity extends AppCompatActivity {
 
     public void openSettingPage(){
         Intent intent = new Intent(this,settingActivity.class);
+        startActivity(intent);
+    }
+
+    public void openNavPage(){
+        Intent intent = new Intent(this, NavActivity.class);
         startActivity(intent);
     }
 }

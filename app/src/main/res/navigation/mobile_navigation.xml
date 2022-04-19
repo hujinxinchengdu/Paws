@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_message">
+
+    <fragment
+        android:id="@+id/navigation_post"
+        android:name="edu.neu.madcourse.paws.ui.post.HomeFragment"
+        android:label="Posts"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_message"
+        android:name="edu.neu.madcourse.paws.ui.messaging.DashboardFragment"
+        android:label="Messages"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_location"
+        android:name="edu.neu.madcourse.paws.ui.nearby.NotificationsFragment"
+        android:label="Nearby Users"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="edu.neu.madcourse.paws.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

@@ -3,17 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android/Paws/app/src/main/res/layout/activity_guide.xml" value="0.33469202898550726" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/activity_init.xml" value="0.33469202898550726" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/activity_login.xml" value="0.33469202898550726" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/activity_main.xml" value="0.33469202898550726" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/activity_maps.xml" value="0.21927083333333333" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/activity_nav.xml" value="0.21927083333333333" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/activity_pet_setting.xml" value="0.33469202898550726" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/activity_profile.xml" value="0.33469202898550726" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/activity_setting.xml" value="0.33469202898550726" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/fragment_dashboard.xml" value="0.33469202898550726" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/fragment_home.xml" value="0.33469202898550726" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/fragment_notifications.xml" value="0.33469202898550726" />
+        <entry key="..\:/android/Paws/app/src/main/res/layout/fragment_profile.xml" value="0.33469202898550726" />
         <entry key="app/src/main/res/layout/activity_guide.xml" value="0.18958333333333333" />
         <entry key="app/src/main/res/layout/activity_init.xml" value="0.15760869565217392" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_nav.xml" value="0.1322463768115942" />
-        <entry key="app/src/main/res/layout/activity_pet_setting.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.22135416666666666" />
         <entry key="app/src/main/res/layout/activity_setting.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1322463768115942" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1322463768115942" />
-        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.335" />
       </map>
     </option>
   </component>

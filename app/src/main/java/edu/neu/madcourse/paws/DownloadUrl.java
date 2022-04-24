@@ -2,6 +2,8 @@ package edu.neu.madcourse.paws;
 
 import android.util.Log;
 
+import com.squareup.okhttp.OkHttpClient;
+
 import java.io.BufferedReader;
 import java.io.IOError;
 import java.io.IOException;

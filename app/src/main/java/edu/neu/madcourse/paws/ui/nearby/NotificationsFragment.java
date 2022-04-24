@@ -149,8 +149,8 @@ public class NotificationsFragment extends Fragment {
 
             }
         });
-
     }
+
     @SuppressLint("MissingSuperCall")
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
